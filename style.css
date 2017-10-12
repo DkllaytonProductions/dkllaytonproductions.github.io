@@ -1,0 +1,46 @@
+/* Website Styling */
+
+body {
+	background-color: black;
+	background-image: url("Background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+}
+h3 {
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+#navbarTextAdjust {
+	padding-top: 5%;
+}
+#title {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	border-radius: 20px;
+	background: blue;
+	border: 1px solid black;
+	background: -webkit-linear-gradient(left top, blue, white);
+	background: -o-linear-gradient(bottom right, blue, white);
+	background: -moz-linear-gradient(bottom right, blue, white);
+	background: linear-gradient(to bottom right, blue, white);
+}
+#content {
+	color: white;
+	background-color: darkgrey;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 100%;
+}
+#extraInfo {
+	background-color: lightgrey;
+	padding-top: 0.01%;
+	padding-bottom: 0.01%;
+}
